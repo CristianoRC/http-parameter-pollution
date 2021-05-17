@@ -1,0 +1,16 @@
+- Exitem várias formas de trabalhar com parâmetros, e cada tecnologia trabalha de uma forma. Não existe um RFC para isso.
+    * Mostrar retornos do C#, JS e PHP
+    * Mostrar o que o google faz - https://www.google.com/search?q=cristiano&q=programador
+
+- Falar sobre o WAF(web application firewall)
+    * E se você esta filtrando ataques XSS ou SQL Injection no Firewall e ele le o primeiro e você o segundo?
+    * Beleza, e se ele ler os dois, e você dividir o script em duas partes porque seu sistema junta?
+
+- Podemos fazer também um ataque de fish
+    * Montar um exemplo de resetar senha
+
+- Como podemos nos proteger?
+    * É um pouco dificil
+    * Cuidar bem da configuração do nosso Firewall, pegando tudo, ou de acordo com a nossa stack
+    * Sempre validar as entradas
+    * E semrpe faça validação de tudo que entra no seu sistema, para não rolar um IDOR, um XSS usando essa tecnica.\

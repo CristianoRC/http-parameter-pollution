@@ -1,0 +1,1 @@
+docker run -it --rm --name exemplo-php -v "$PWD":/var/www/html php:5.6-apache
